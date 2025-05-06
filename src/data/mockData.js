@@ -3,76 +3,77 @@ import { tokens } from "../theme";
 export const mockDataTeam = [
   {
     id: 1,
-    name: "Vivek Zanjad",
-    email: "jonsnow@gmail.com",
-    age: 35,
-    phone: "(665)121-5454",
+    name: "Nikita Suryawanshi",
+    email: "nikita@gmail.com",
+    age: 22,
+    phone: "+91-985641561",
     access: "admin",
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
+    name: "Rajesh Kumar",
+    email: "rajesh.kumar@india.com",
     age: 42,
-    phone: "(421)314-2288",
+    phone: "+91-9876543210",
     access: "manager",
   },
   {
     id: 3,
-    name: "Jaime Lannister",
-    email: "jaimelannister@gmail.com",
+    name: "Priya Sharma",
+    email: "priya.sharma@india.com",
     age: 45,
-    phone: "(422)982-6739",
+    phone: "+91-8765432109",
     access: "user",
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
+    name: "Ananya Verma",
+    email: "ananya.verma@india.com",
     age: 16,
-    phone: "(921)425-6742",
+    phone: "+91-9988776655",
     access: "admin",
   },
   {
     id: 5,
-    name: "Daenerys Targaryen",
-    email: "daenerystargaryen@gmail.com",
+    name: "Amitabh Singh",
+    email: "amitabh.singh@india.com",
     age: 31,
-    phone: "(421)445-1189",
+    phone: "+91-9123456780",
     access: "user",
   },
   {
     id: 6,
-    name: "Ever Melisandre",
-    email: "evermelisandre@gmail.com",
+    name: "Meera Iyer",
+    email: "meera.iyer@india.com",
     age: 150,
-    phone: "(232)545-6483",
+    phone: "+91-9345678901",
     access: "manager",
   },
   {
     id: 7,
-    name: "Ferrara Clifford",
-    email: "ferraraclifford@gmail.com",
+    name: "Vikram Das",
+    email: "vikram.das@india.com",
     age: 44,
-    phone: "(543)124-0123",
+    phone: "+91-9988998877",
     access: "user",
   },
   {
     id: 8,
-    name: "Rossini Frances",
-    email: "rossinifrances@gmail.com",
+    name: "Sneha Reddy",
+    email: "sneha.reddy@india.com",
     age: 36,
-    phone: "(222)444-5555",
+    phone: "+91-9876123456",
     access: "user",
   },
   {
     id: 9,
-    name: "Harvey Roxie",
-    email: "harveyroxie@gmail.com",
+    name: "Rohit Kapoor",
+    email: "rohit.kapoor@india.com",
     age: 65,
-    phone: "(444)555-6239",
+    phone: "+91-9090909090",
     access: "admin",
   },
+  
 ];
 
 export const mockDataContacts = [
@@ -81,7 +82,7 @@ export const mockDataContacts = [
     name: "Aarav Sharma",
     email: "aarav.sharma@gmail.com",
     age: 28,
-    phone: "(911)234-5678",
+    phone: "+91-9123456780",
     address: "24 MG Road, Bengaluru, KA 560001",
     city: "Bengaluru",
     zipCode: "560001",
@@ -92,7 +93,7 @@ export const mockDataContacts = [
     name: "Diya Mehta",
     email: "diya.mehta@gmail.com",
     age: 32,
-    phone: "(912)456-7890",
+    phone: "+91-9345612789",
     address: "10 Park Street, Kolkata, WB 700016",
     city: "Kolkata",
     zipCode: "700016",
@@ -103,7 +104,7 @@ export const mockDataContacts = [
     name: "Rohan Verma",
     email: "rohan.verma@gmail.com",
     age: 41,
-    phone: "(913)789-0123",
+    phone: "+91-9876512340",
     address: "55 Laxmi Nagar, New Delhi, DL 110092",
     city: "New Delhi",
     zipCode: "110092",
@@ -114,7 +115,7 @@ export const mockDataContacts = [
     name: "Sneha Iyer",
     email: "sneha.iyer@gmail.com",
     age: 24,
-    phone: "(914)321-6549",
+    phone: "+91-9001123456",
     address: "12 Nungambakkam High Road, Chennai, TN 600034",
     city: "Chennai",
     zipCode: "600034",
@@ -125,7 +126,7 @@ export const mockDataContacts = [
     name: "Vikram Desai",
     email: "vikram.desai@gmail.com",
     age: 37,
-    phone: "(915)987-6543",
+    phone: "+91-9988776655",
     address: "8 Law Garden Road, Ahmedabad, GJ 380006",
     city: "Ahmedabad",
     zipCode: "380006",
@@ -136,7 +137,7 @@ export const mockDataContacts = [
     name: "Kavya Reddy",
     email: "kavya.reddy@gmail.com",
     age: 29,
-    phone: "(916)222-3333",
+    phone: "+91-9112233445",
     address: "120 Banjara Hills, Hyderabad, TS 500034",
     city: "Hyderabad",
     zipCode: "500034",
@@ -147,7 +148,7 @@ export const mockDataContacts = [
     name: "Amitabh Chauhan",
     email: "amitabh.chauhan@gmail.com",
     age: 45,
-    phone: "(917)111-2222",
+    phone: "+91-9223344556",
     address: "76 Civil Lines, Kanpur, UP 208001",
     city: "Kanpur",
     zipCode: "208001",
@@ -158,7 +159,7 @@ export const mockDataContacts = [
     name: "Ritika Joshi",
     email: "ritika.joshi@gmail.com",
     age: 34,
-    phone: "(918)444-5555",
+    phone: "+91-9334455667",
     address: "89 Rajpur Road, Dehradun, UK 248001",
     city: "Dehradun",
     zipCode: "248001",
@@ -169,7 +170,7 @@ export const mockDataContacts = [
     name: "Manish Gupta",
     email: "manish.gupta@gmail.com",
     age: 50,
-    phone: "(919)666-7777",
+    phone: "+91-9445566778",
     address: "102 Ashok Nagar, Bhopal, MP 462023",
     city: "Bhopal",
     zipCode: "462023",
@@ -180,7 +181,7 @@ export const mockDataContacts = [
     name: "Tanvi Shah",
     email: "tanvi.shah@gmail.com",
     age: 30,
-    phone: "(920)888-9999",
+    phone: "+91-9556677889",
     address: "33 Marine Drive, Mumbai, MH 400020",
     city: "Mumbai",
     zipCode: "400020",
@@ -191,12 +192,12 @@ export const mockDataContacts = [
     name: "Rahul Nair",
     email: "rahul.nair@gmail.com",
     age: 19,
-    phone: "(921)777-8888",
+    phone: "+91-9667788990",
     address: "70 MG Road, Ernakulam, KL 682011",
     city: "Kochi",
     zipCode: "682011",
     registrarId: 92197,
-  },
+  },  
 ];
 
 export const mockDataInvoices = [
@@ -205,7 +206,7 @@ export const mockDataInvoices = [
     name: "Aarav Sharma",
     email: "aarav.sharma@gmail.com",
     cost: "21.24",
-    phone: "9876543210",
+    phone: "+91-9876543210",
     date: "12/03/2025",
   },
   {
@@ -213,7 +214,7 @@ export const mockDataInvoices = [
     name: "Priya Verma",
     email: "priya.verma@gmail.com",
     cost: "1.24",
-    phone: "9123456789",
+    phone: "+91-9123456789",
     date: "15/03/2025",
   },
   {
@@ -221,7 +222,7 @@ export const mockDataInvoices = [
     name: "Rohit Patel",
     email: "rohit.patel@gmail.com",
     cost: "11.24",
-    phone: "9988776655",
+    phone: "+91-9988776655",
     date: "02/05/2025",
   },
   {
@@ -229,7 +230,7 @@ export const mockDataInvoices = [
     name: "Ananya Iyer",
     email: "ananya.iyer@gmail.com",
     cost: "80.55",
-    phone: "9090909090",
+    phone: "+91-9090909090",
     date: "21/03/2025",
   },
   {
@@ -237,7 +238,7 @@ export const mockDataInvoices = [
     name: "Kiran Desai",
     email: "kiran.desai@gmail.com",
     cost: "1.24",
-    phone: "9112233445",
+    phone: "+91-9112233445",
     date: "12/01/2025",
   },
   {
@@ -245,7 +246,7 @@ export const mockDataInvoices = [
     name: "Meera Nair",
     email: "meera.nair@gmail.com",
     cost: "63.12",
-    phone: "9871234567",
+    phone: "+91-9871234567",
     date: "02/11/2025",
   },
   {
@@ -253,7 +254,7 @@ export const mockDataInvoices = [
     name: "Aditya Reddy",
     email: "aditya.reddy@gmail.com",
     cost: "52.42",
-    phone: "9334455667",
+    phone: "+91-9334455667",
     date: "11/02/2025",
   },
   {
@@ -261,7 +262,7 @@ export const mockDataInvoices = [
     name: "Sneha Kapoor",
     email: "sneha.kapoor@gmail.com",
     cost: "21.24",
-    phone: "9001122334",
+    phone: "+91-9001122334",
     date: "02/05/2025",
   },
 ];
@@ -318,113 +319,113 @@ export const mockTransactions = [
 ];
 
 export const mockBarData = [
-  {
-    country: "AD",
-    "hot dog": 137,
-    "hot dogColor": "hsl(229, 70%, 50%)",
-    burger: 96,
-    burgerColor: "hsl(296, 70%, 50%)",
-    kebab: 72,
-    kebabColor: "hsl(97, 70%, 50%)",
-    donut: 140,
-    donutColor: "hsl(340, 70%, 50%)",
-  },
-  {
-    country: "AE",
-    "hot dog": 55,
-    "hot dogColor": "hsl(307, 70%, 50%)",
-    burger: 28,
-    burgerColor: "hsl(111, 70%, 50%)",
-    kebab: 58,
-    kebabColor: "hsl(273, 70%, 50%)",
-    donut: 29,
-    donutColor: "hsl(275, 70%, 50%)",
-  },
-  {
-    country: "AF",
-    "hot dog": 109,
-    "hot dogColor": "hsl(72, 70%, 50%)",
-    burger: 23,
-    burgerColor: "hsl(96, 70%, 50%)",
-    kebab: 34,
-    kebabColor: "hsl(106, 70%, 50%)",
-    donut: 152,
-    donutColor: "hsl(256, 70%, 50%)",
-  },
-  {
-    country: "AG",
-    "hot dog": 133,
-    "hot dogColor": "hsl(257, 70%, 50%)",
-    burger: 52,
-    burgerColor: "hsl(326, 70%, 50%)",
-    kebab: 43,
-    kebabColor: "hsl(110, 70%, 50%)",
-    donut: 83,
-    donutColor: "hsl(9, 70%, 50%)",
-  },
-  {
-    country: "AI",
-    "hot dog": 81,
-    "hot dogColor": "hsl(190, 70%, 50%)",
-    burger: 80,
-    burgerColor: "hsl(325, 70%, 50%)",
-    kebab: 112,
-    kebabColor: "hsl(54, 70%, 50%)",
-    donut: 35,
-    donutColor: "hsl(285, 70%, 50%)",
-  },
-  {
-    country: "AL",
-    "hot dog": 66,
-    "hot dogColor": "hsl(208, 70%, 50%)",
-    burger: 111,
-    burgerColor: "hsl(334, 70%, 50%)",
-    kebab: 167,
-    kebabColor: "hsl(182, 70%, 50%)",
-    donut: 18,
-    donutColor: "hsl(76, 70%, 50%)",
-  },
-  {
-    country: "AM",
-    "hot dog": 80,
-    "hot dogColor": "hsl(87, 70%, 50%)",
-    burger: 47,
-    burgerColor: "hsl(141, 70%, 50%)",
-    kebab: 158,
-    kebabColor: "hsl(224, 70%, 50%)",
-    donut: 49,
-    donutColor: "hsl(274, 70%, 50%)",
-  },
-];
-
+    {
+      state: "MH", // Maharashtra
+      "WH": 137,
+      "WHColor": "hsl(229, 70%, 50%)",
+      CN: 96,
+      CNColor: "hsl(296, 70%, 50%)",
+      PS: 72,
+      PSColor: "hsl(97, 70%, 50%)",
+      ME: 140,
+      MEColor: "hsl(340, 70%, 50%)",
+    },
+    {
+      state: "AR", // Arunachal Pradesh
+      "WH": 55,
+      "WHColor": "hsl(307, 70%, 50%)",
+      CN: 28,
+      CNColor: "hsl(111, 70%, 50%)",
+      PS: 58,
+      PSColor: "hsl(273, 70%, 50%)",
+      ME: 29,
+      MEColor: "hsl(275, 70%, 50%)",
+    },
+    {
+      state: "AS", // Assam
+      "WH": 109,
+      "WHColor": "hsl(72, 70%, 50%)",
+      CN: 23,
+      CNColor: "hsl(96, 70%, 50%)",
+      PS: 34,
+      PSColor: "hsl(106, 70%, 50%)",
+      ME: 152,
+      MEColor: "hsl(256, 70%, 50%)",
+    },
+    {
+      state: "BR", // Bihar
+      "WH": 133,
+      "WHColor": "hsl(257, 70%, 50%)",
+      CN: 52,
+      CNColor: "hsl(326, 70%, 50%)",
+      PS: 43,
+      PSColor: "hsl(110, 70%, 50%)",
+      ME: 83,
+      MEColor: "hsl(9, 70%, 50%)",
+    },
+    {
+      state: "CG", // Chhattisgarh
+      "WH": 81,
+      "WHColor": "hsl(190, 70%, 50%)",
+      CN: 80,
+      CNColor: "hsl(325, 70%, 50%)",
+      PS: 112,
+      PSColor: "hsl(54, 70%, 50%)",
+      ME: 35,
+      MEColor: "hsl(285, 70%, 50%)",
+    },
+    {
+      state: "GA", // Goa
+      "WH": 66,
+      "WHColor": "hsl(208, 70%, 50%)",
+      CN: 111,
+      CNColor: "hsl(334, 70%, 50%)",
+      PS: 167,
+      PSColor: "hsl(182, 70%, 50%)",
+      ME: 18,
+      MEColor: "hsl(76, 70%, 50%)",
+    },
+    {
+      state: "GJ", // Gujarat
+      "WH": 80,
+      "WHColor": "hsl(87, 70%, 50%)",
+      CN: 47,
+      CNColor: "hsl(141, 70%, 50%)",
+      PS: 158,
+      PSColor: "hsl(224, 70%, 50%)",
+      ME: 49,
+      MEColor: "hsl(274, 70%, 50%)",
+    },
+  ];
+  
 export const mockPieData = [
   {
-    id: "hack",
-    label: "hack",
+    id: "WH",
+    label: "WH", // Wire Harnesses
     value: 239,
     color: "hsl(104, 70%, 50%)",
   },
   {
-    id: "make",
-    label: "make",
+    id: "Connectors",
+    label: "Connectors",
     value: 170,
     color: "hsl(162, 70%, 50%)",
   },
   {
-    id: "go",
-    label: "go",
+    id: "Power systems",
+    label: "Power sys",
     value: 322,
     color: "hsl(291, 70%, 50%)",
   },
   {
-    id: "lisp",
-    label: "lisp",
+    id: "Meter Equipment",
+    label: "Meter Equ",
     value: 503,
     color: "hsl(229, 70%, 50%)",
   },
   {
-    id: "scala",
-    label: "scala",
+    id: "Automotive Wire",
+    label: "Automotive Wire",
     value: 584,
     color: "hsl(344, 70%, 50%)",
   },
@@ -432,165 +433,165 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "japan",
+    id: "MH",
     color: tokens("dark").greenAccent[500],
     data: [
       {
-        x: "plane",
+        x: "WH", // Wire Harnesses
         y: 101,
       },
       {
-        x: "helicopter",
+        x: "CN", // Connectors
         y: 75,
       },
       {
-        x: "boat",
+        x: "PS", // Power Systems
         y: 36,
       },
       {
-        x: "train",
+        x: "ME", // Meter Equipment
         y: 216,
       },
       {
-        x: "subway",
+        x: "CP", // Control Panels
         y: 35,
       },
       {
-        x: "bus",
+        x: "IC", // Instrument Clusters
         y: 236,
       },
       {
-        x: "car",
+        x: "SN", // Sensors
         y: 88,
       },
       {
-        x: "moto",
+        x: "SW", // Switches
         y: 232,
       },
       {
-        x: "bicycle",
+        x: "CC", // Charging Components
         y: 281,
       },
       {
-        x: "horse",
+        x: "RB", // Relay Boxes
         y: 1,
       },
       {
-        x: "skateboard",
+        x: "SJB", // Smart Junction Boxes
         y: 35,
       },
       {
-        x: "others",
+        x: "TU",  // Telematics Units
         y: 14,
-      },
+      },            
     ],
   },
   {
-    id: "france",
+    id: "GJ",
     color: tokens("dark").blueAccent[300],
     data: [
       {
-        x: "plane",
+        x: "WH", // Wire Harnesses
         y: 212,
       },
       {
-        x: "helicopter",
+        x: "CN", // Connectors
         y: 190,
       },
       {
-        x: "boat",
+        x: "PS", // Power Systems
         y: 270,
       },
       {
-        x: "train",
+        x: "ME", // Meter Equipment
         y: 9,
       },
       {
-        x: "subway",
+        x: "CP", // Control Panels
         y: 75,
       },
       {
-        x: "bus",
+        x: "IC", // Instrument Clusters
         y: 175,
       },
       {
-        x: "car",
+        x: "SN", // Sensors
         y: 33,
       },
       {
-        x: "moto",
+        x: "SW", // Switches
         y: 189,
       },
       {
-        x: "bicycle",
+        x: "CC", // Charging Components
         y: 97,
       },
       {
-        x: "horse",
+        x: "RB", // Relay Boxes
         y: 87,
       },
       {
-        x: "skateboard",
+        x: "SJB", // Smart Junction Boxes
         y: 299,
       },
       {
-        x: "others",
+        x: "TU",  // Telematics Units
         y: 251,
-      },
+      },      
     ],
   },
   {
-    id: "us",
+    id: "AP",
     color: tokens("dark").redAccent[200],
     data: [
       {
-        x: "plane",
+        x: "WH",  // Wire Harnesses
         y: 191,
       },
       {
-        x: "helicopter",
+        x: "CN",  // Connectors
         y: 136,
       },
       {
-        x: "boat",
+        x: "PS",  // Power Systems
         y: 91,
       },
       {
-        x: "train",
+        x: "ME",  // Meter Equipment
         y: 190,
       },
       {
-        x: "subway",
+        x: "CP",  // Control Panels
         y: 211,
       },
       {
-        x: "bus",
+        x: "IC",  // Instrument Clusters
         y: 152,
       },
       {
-        x: "car",
+        x: "SN",  // Sensors
         y: 189,
       },
       {
-        x: "moto",
+        x: "SW",  // Switches
         y: 152,
       },
       {
-        x: "bicycle",
+        x: "CC",  // Charging Components
         y: 8,
       },
       {
-        x: "horse",
+        x: "RB",  // Relay Boxes
         y: 197,
       },
       {
-        x: "skateboard",
+        x: "SJB",  // Smart Junction Boxes
         y: 107,
       },
       {
-        x: "others",
+        x: "TU",  // Telematics Units
         y: 170,
-      },
+      },       
     ],
   },
 ];

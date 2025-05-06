@@ -39,8 +39,14 @@ const BarChart = ({ isDashboard = false }) => {
           },
         },
       }}
-      keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
-      indexBy="country"
+      keys={["WH", "CN", "PS", "ME", "HVP", "AW"]}
+    /*  WH  - Wire Harnesses 
+        CN  - Connectors 
+        PS  - Power Systems 
+        ME  - Meter Equipment 
+        HVP - High-Voltage Products 
+        AW  - Automotive Wire */
+      indexBy="state"
       margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
@@ -76,7 +82,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "country", // changed
+        legend: isDashboard ? undefined : "state", // changed
         legendPosition: "middle",
         legendOffset: 32,
       }}
@@ -84,7 +90,7 @@ const BarChart = ({ isDashboard = false }) => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "food", // changed
+        legend: isDashboard ? undefined : "Sale", // changed
         legendPosition: "middle",
         legendOffset: -40,
       }}
@@ -121,7 +127,7 @@ const BarChart = ({ isDashboard = false }) => {
       ]}
       role="application"
       barAriaLabel={function (e) {
-        return e.id + ": " + e.formattedValue + " in country: " + e.indexValue;
+        return e.id + ": " + e.formattedValue + " in state: " + e.indexValue;
       }}
     />
   );
